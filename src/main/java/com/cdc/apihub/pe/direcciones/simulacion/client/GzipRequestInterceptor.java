@@ -1,12 +1,17 @@
 package com.cdc.apihub.pe.direcciones.simulacion.client;
 
-import okhttp3.*;
 import okio.Buffer;
 import okio.BufferedSink;
 import okio.GzipSink;
 import okio.Okio;
 
 import java.io.IOException;
+
+import okhttp3.Interceptor;
+import okhttp3.MediaType;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 class GzipRequestInterceptor implements Interceptor {
     @Override public Response intercept(Chain chain) throws IOException {

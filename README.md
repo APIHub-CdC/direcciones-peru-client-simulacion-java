@@ -79,3 +79,5 @@ Teniendo los pasos anteriores ya solo falta ejecutar la prueba unitaria, con el 
 ```shell
 mvn test -Dmaven.install.skip=true
 ```
+---
+[TERMS AND CONDITIONS](https://github.com/APIHub-CdC/licencias-cdc)

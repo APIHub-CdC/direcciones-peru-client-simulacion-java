@@ -18,17 +18,17 @@ public class DireccionesApiTest {
     @Before()
     public void setUp() {
     	ApiClient apiClient = api.getApiClient();
-		apiClient.setBasePath("https://circulodecredito-dev.apigee.net/sandbox/v1/direcciones");
+		apiClient.setBasePath("the_url");
     }
     
     @Test
     public void direccionesTest() throws ApiException {
         
-        String xApiKey = "dx9zHqQITXVSLdHIUde0uGraM5kPqTkz";
+        String xApiKey = "your_api_key";
         
         Peticion request = new Peticion();
-        request.setTipoDocumento("1");
-        request.setNumeroDocumento("00439813");
+        request.setTipoDocumento("XX");
+        request.setNumeroDocumento("XXXXXX");
         
         
         try {
