@@ -68,7 +68,6 @@ public class DireccionesApi {
         String[] localVarAuthNames = new String[] {  };
         return apiClient.buildCall(localVarPath, "POST", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarAuthNames, progressRequestListener);
     }
-    @SuppressWarnings("rawtypes")
     private okhttp3.Call direccionesValidateBeforeCall(String xApiKey,  Peticion request, final ProgressResponseBody.ProgressListener progressListener, final ProgressRequestBody.ProgressRequestListener progressRequestListener) throws ApiException {
         
         if (xApiKey == null) {

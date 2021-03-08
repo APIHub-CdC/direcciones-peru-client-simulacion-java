@@ -5,7 +5,8 @@ import java.util.List;
 
 
 public class ApiException extends Exception {
-    private int code = 0;
+	private static final long serialVersionUID = -2112070936361503717L;
+	private int code = 0;
     private Map<String, List<String>> responseHeaders = null;
     private String responseBody = null;
     public ApiException() {}

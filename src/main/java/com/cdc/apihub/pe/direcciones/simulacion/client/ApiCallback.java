@@ -1,6 +1,5 @@
 package com.cdc.apihub.pe.direcciones.simulacion.client;
 
-import java.io.IOException;
 
 import java.util.Map;
 import java.util.List;
